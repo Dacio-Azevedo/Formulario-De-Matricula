@@ -8,7 +8,7 @@ button {
 
     &.btn-primary {
         color: white;
-        background-color: #E43A12;
+        background-color: var(--brand-color-dark);
 
         &:hover,
         &:focus {
@@ -22,8 +22,9 @@ button {
 
         &:hover,
         &:focus {
-            color:  #E43A12;
+            color: var(--brand-color-dark);
             outline: .25rem solid var(--surface-secondary);
+
         }
     }
 }
